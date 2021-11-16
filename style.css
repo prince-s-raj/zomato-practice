@@ -12,21 +12,20 @@ body{
     font-family: "Merriweather", sans-serif;  
 }
 .nav-bar{
-    background-color: #f9fafc;
-    width: 100%;  
-    height: 75px;
+    background-color: white;  
+    height: 80px;
     box-shadow: 0px 4px 5px 3px #d7e1f5;
 }
 .nav-bar img{
     width: 125px;
-    height: 80px;
+    height: 85px;
     margin-left: 60px;  
 }
 .btn{
     float: right;
-    width: 159px;
     margin-top: 10px;
     margin-right: 70px;
+    box-shadow: 0px 0px 20px;
     background-image: linear-gradient(
         to right,
         #ff512f 0%,
@@ -35,12 +34,12 @@ body{
       );
     border: none;
     text-align: center;
-    padding: 18px 35px;
+    padding: 20px 40px;
     color: white;
     border-radius: 5px;
     display: inline-block;
-    font-size: 16px;
-    font-weight:bold;
+    font-size: 19px;
+    font-weight:bold;  
 }
 .btn:hover{
     cursor: pointer;
@@ -50,26 +49,27 @@ span{
     color:red;
 }
 .section-2{
-    display:flex;
-    flex-direction:wrap;
-    gap: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 .sub-sec h3{
-    font-size: 52px;
-    line-height: 2.6rem; 
+    font-size: 55px;
+    line-height: 2.8rem; 
     color: #1d3557; 
     text-align: left;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 .sub-sec button{
     float: left;
-    margin-left:10px;
 }
 .sub-sec svg{
     width: 510px;
     height: 580px;
     float: right;
-    position: absolute;     
+    position: relative;      
 }
 .over-svg{
     width: 550px;
@@ -86,8 +86,7 @@ span{
 .section-3{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    margin-top: 190px; 
+    justify-content: center;  
 }
 .video-bg{
     background-image: linear-gradient(
@@ -106,18 +105,18 @@ iframe {
     padding-bottom: 20px;
     border:none;
     margin-top: -20px;
-    margin-left: -20px;
+    margin-left: -20px;  
 }
 .video-para{
     text-align: center;
     font-size: 1.7rem;
     line-height: 2rem;
-    color: #1d3557;  
+    color: #1d3557;   
 }
 .section-4{
     height: 620px;
     position: relative;
-    margin-top:60px;
+    margin-top: 5rem ;
     text-align: center;
     background-image: linear-gradient(
         to right,
@@ -126,17 +125,17 @@ iframe {
         #ff512f 100%
       ); 
 }
+.section-4-exp-menu{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;   
+}
 .section-4 h1{
     margin-bottom: 45px;
     line-height: 1;
     font-weight: 900;
     color: #1d3557;
-    font-size: 3rem;   
-}
-.section-4-exp-menu{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-around;   
+    font-size: 3rem; 
 }
 .menu-img {
     box-shadow:black;
@@ -169,7 +168,7 @@ iframe {
     padding-left:10px;
     padding-top: 10px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;   
+    border-bottom-right-radius: 10px;  
 }
 .view-more{
     display: flex;
@@ -229,6 +228,7 @@ iframe {
 }
 .user-inp .btn{
     margin-top: -10px;
+
 }
 .section-6{
     height: 200px;
@@ -257,6 +257,7 @@ iframe {
     height: 40px;
     padding-left: 10px;
 }
+
 .section-7{
     width:100%;
     border-radius: 13px;
@@ -303,4 +304,3 @@ iframe {
 li{
     list-style-type: none;
 }
-
